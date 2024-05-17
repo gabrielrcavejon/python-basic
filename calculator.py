@@ -25,7 +25,7 @@ while operacao != "X" or operacao != "x":
   match operacao: # AQUI vai ser escolhido o que vai ser feito com base no que o usuario digitou
     case "1": 
       while True:
-        num = input("Digite um numero ou aperte P para calcular: ")
+        num = input("Insira um numero ou aperte P -> Parar: ")
 
         if num == "P":
           print(f"Resultado é {resultado}")
@@ -35,7 +35,7 @@ while operacao != "X" or operacao != "x":
       print()
     case "2":
       while True:
-        num = input("Digite um numero ou aperte P para calcular: ")
+        num = input("Insira um numero ou aperte P -> Parar: ")
 
         if num == "P":
           print(f"Resultado é {resultado}")
@@ -51,7 +51,7 @@ while operacao != "X" or operacao != "x":
       print()
     case "3":
       while True:
-        num = input("Digite um numero ou aperte P para calcular: ")
+        num = input("Insira um numero ou aperte P -> Parar: ")
 
         if num == "P":
           print(f"Resultado é {resultado}")
@@ -65,7 +65,7 @@ while operacao != "X" or operacao != "x":
       print()
     case "4":
       while True:
-        num = input("Digite um numero ou aperte P para calcular: ")
+        num = input("Insira um numero ou aperte P -> Parar: ")
 
         if num == "P":
           print(f"Resultado é {resultado}")
